@@ -1,5 +1,5 @@
-This is an example of the package dynamic-module-federation.
-The package is used inside host application to dynamically import the module federated app named remote.
-Serve the remote application using ```yarn run serve```.
-Run the host application using ```yarn dev```
-The button from remote app will be consumed inside the host app using dynamic module federation.
+This README showcases the usage of the 'dynamic-module-federation' package. 
+This package is integrated into a host application to enable dynamic importing of the module federated app called 'remote'. 
+To serve the remote application, execute yarn run serve. 
+Launch the host application by running yarn dev. 
+Within the host app, the button from the remote app is consumed using dynamic module federation.
