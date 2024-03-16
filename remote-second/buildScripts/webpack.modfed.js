@@ -10,6 +10,6 @@ module.exports = merge(common, {
   output: {
     path: path.resolve(__dirname, '../dist/mf'),
     // keep the public path as '/' or the actual pathname for production and the localhost with port for development
-    publicPath: 'http://localhost:3001/'
+    publicPath: 'http://localhost:3002/'
   }
 })

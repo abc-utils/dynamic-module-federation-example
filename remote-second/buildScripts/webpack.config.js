@@ -41,7 +41,7 @@ module.exports = {
     new CleanWebpackPlugin(),
     new NodePolyfillPlugin(),
     new ModuleFederationPlugin({
-      name: 'remoteAppFirst',
+      name: 'remoteAppSecond',
       filename: 'remoteEntry.js',
       exposes: {
         './Button': './src/components/Button'
