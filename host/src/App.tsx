@@ -1,6 +1,7 @@
 import React, { Suspense } from 'react'
 import './App.css'
-import RemoteButton from './RemoteButton'
+import RemoteButtonFirst from './RemoteButtonFirst'
+import RemoteButtonSecond from './RemoteButtonSecond'
 // const FederatedButton = React.lazy(() => import('RemoteApp/Button'))
 
 function App() {
@@ -8,7 +9,8 @@ function App() {
     <div className="App">
       <header className="App-header">This is the host application</header>
       <Suspense fallback={<div>Loading...</div>}>
-        <RemoteButton />
+        <RemoteButtonFirst />
+        <RemoteButtonSecond />
       </Suspense>
     </div>
   )

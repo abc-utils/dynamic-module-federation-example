@@ -1,5 +1,5 @@
 {
-  "name": "host",
+  "name": "remotesecond",
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
@@ -19,8 +19,8 @@
     "@testing-library/user-event": "^13.5.0",
     "@types/jest": "^29.2.3",
     "@types/node": "18.11.9",
-    "@types/react": "^18.2.58",
-    "@types/react-dom": "^18.2.19",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
     "@typescript-eslint/eslint-plugin": "^5.43.0",
     "@typescript-eslint/parser": "^5.43.0",
     "autoprefixer": "^10.4.13",
@@ -62,12 +62,11 @@
     "stylelint-prettier": "^2.0.0",
     "stylelint-scss": "^4.3.0",
     "typescript": "4.9.3",
-    "webpack": "^5.90.3",
+    "webpack": "5.90.3",
     "webpack-cli": "^5.0.1",
     "webpack-dev-server": "^5.0.2"
   },
   "dependencies": {
-    "dynamic-module-federation": "^0.3.0",
     "isomorphic-unfetch": "^3.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -77,6 +76,8 @@
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack serve --hot --config buildScripts/webpack.development.js",
     "build": "npx webpack --config buildScripts/webpack.production.js",
+    "build:modfed": "npx webpack --config buildScripts/webpack.modfed.js",
+    "serve": "npx webpack serve --config buildScripts/webpack.modfed.js --port 3002",
     "test": "npx jest --silent -w 1 --forceExit"
   },
   "eslintConfig": {
