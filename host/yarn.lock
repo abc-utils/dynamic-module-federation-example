@@ -4165,10 +4165,10 @@ dot-prop@^5.1.0:
   dependencies:
     is-obj "^2.0.0"
 
-dynamic-module-federation@^0.3.0:
-  version "0.3.0"
-  resolved "https://registry.npmjs.org/dynamic-module-federation/-/dynamic-module-federation-0.3.0.tgz"
-  integrity sha512-W428cSiqc8lgxeFIQAClrfwdRIwSmcut+7MGkt4iAmm275Mu3sUShI1dAUZKkZpIx/T5MaNGjelYOFy9kprFAg==
+dynamic-module-federation@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/dynamic-module-federation/-/dynamic-module-federation-0.4.0.tgz#91db29ae2035c9f484eb9bfb39d7459ebb659dcd"
+  integrity sha512-Gk8YKaMJpI5oUbXFRnNfcPgiYoLXPZs7i/mhLm2faPcPZbCoU6oLZyH/6htX5FRRCbpKs/ajLZ333UrpGUHFhA==
 
 eastasianwidth@^0.2.0:
   version "0.2.0"

@@ -1,6 +1,5 @@
 import ModFedRemoteLoader from 'dynamic-module-federation'
 import React from 'react'
-// import ModFedRemoteLoader from './mfloader'
 
 const RemoteButtonFirst = () => {
   console.log('This is remote button from the first application')
